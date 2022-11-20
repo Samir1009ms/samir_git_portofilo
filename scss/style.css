@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
@@ -14,7 +16,6 @@ body {
 #top {
   width: 100%;
   background-color: black;
-  height: 10%;
   position: absolute;
 }
 
@@ -32,6 +33,9 @@ body {
   width: 82%;
   display: flex;
   margin: auto;
+}
+.nav--list .nav--buton {
+  display: none;
 }
 .nav--list .nav--logo {
   margin: auto;
@@ -74,12 +78,8 @@ body {
   top: 0px;
   bottom: 0px;
 }
-.nav--list .nav--buton {
-  display: none;
-}
 
 .main {
-  height: 100%;
   width: 100%;
 }
 .main-content {
@@ -491,6 +491,9 @@ body {
   display: flex;
   width: 90%;
 }
+.main .skills--container .container--top .skills-bottom .skills--menu .skills--top .top--text {
+  font-size: 16px;
+}
 .main .skills--container .container--top .skills-bottom .skills--menu .skills--icon {
   width: 90%;
   height: 10px;
@@ -575,4 +578,526 @@ body {
 .main .skills--container .container--top .skills-bottom .skills--menu .skills--icon .skills--yellow20 .text--top {
   position: absolute;
   bottom: 7px;
-}/*# sourceMappingURL=style.css.map */
+}
+.main .contact {
+  width: 100%;
+  padding-top: 35px;
+}
+.main .contact--container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: antiquewhite;
+}
+.main .contact--container .contact--top {
+  width: 95%;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  display: grid;
+  grid-template-rows: 5fr 4fr;
+}
+.main .contact--container .contact--top .contact--about {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.main .contact--container .contact--top .contact--about .contact--opacity {
+  font-size: 77px;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.2);
+}
+.main .contact--container .contact--top .contact--about .contact--text {
+  font-size: 44px;
+  position: relative;
+}
+.main .contact--container .contact--top .contact--about .contact_text {
+  font-size: 15px;
+  color: darkgray;
+}
+.main .contact--container .contact--top .contact--div {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  text-align: center;
+  gap: 10px;
+}
+.main .contact--container .contact--top .contact--div .contact--bottom {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 3fr 1.5fr 2fr;
+  height: auto;
+}
+.main .contact--container .contact--top .contact--div .contact--bottom .contact--icon {
+  display: inline-grid;
+  margin-bottom: 20px;
+}
+.main .contact--container .contact--top .contact--div .contact--bottom .contact--icon .icon--contact {
+  width: 12%;
+  margin: 0px auto;
+  padding: 28px;
+  background-color: #1c1c1c;
+  border-radius: 43px;
+}
+.main .contact--container .contact--top .contact--div .contact--bottom .contact--icon .icon--contact i {
+  font-size: 24px;
+  color: yellow;
+}
+.main .contact--container .contact--top .contact--div .contact--bottom .main--contact {
+  color: #fff;
+}
+.main .contact--container .contact--top .contact--div .contact--bottom .contact--main {
+  color: #767676;
+}
+.main .contact--container .contact--top .contact--div .contact--bottom .contact-main {
+  color: rgb(105, 105, 105);
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+}
+.footer--container {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.footer--container .row {
+  display: grid;
+  grid-template-columns: 3.2fr 3fr 3fr 3fr;
+  width: 90%;
+  margin: 0px auto;
+  gap: 20px;
+}
+.footer--container .row--container h2 {
+  color: #fff;
+}
+.footer--container .row--container p {
+  color: rgb(120, 120, 120);
+}
+.footer--container .row--container .footer--icon {
+  color: cornflowerblue;
+  display: flex;
+  gap: 20px;
+  font-size: 26px;
+}
+.footer--container .row--container .footer--list .footer--text .footer--link {
+  color: rgb(120, 120, 120);
+}
+.footer--container .row--container .footer--list .footer--text .footer--link i {
+  margin-right: 5px;
+  color: #ffbd39;
+}
+.footer .son {
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer .son--text i {
+  color: #e5e505;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100% !important;
+  }
+  .nav {
+    width: 80% !important;
+  }
+  .nav .nav--list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav .nav--list .nav--logo {
+    margin: 0px !important;
+  }
+  .nav .nav--list .menu {
+    justify-content: end;
+  }
+  .nav .nav--list .menu .menu--list {
+    display: none;
+    color: #2c43ff;
+  }
+  .nav .nav--list .nav--buton {
+    display: block;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+  }
+  .nav .nav--list .nav--buton .menu--icon {
+    color: #e5e505;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .main {
+    width: 100%;
+  }
+  .main .main-content .container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main .main-content .container .container-text {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .main .main-content .container .container-text .text {
+    width: 100%;
+    position: absolute;
+  }
+  .main .main-content .container .container--img {
+    width: 100%;
+  }
+  .about .about--container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .about .about--container .about--left {
+    display: none;
+  }
+  .about .about--container .about--right {
+    width: 100%;
+    text-align: center;
+  }
+  .about .about--container .about--right .about--text {
+    width: 92%;
+    margin: auto;
+  }
+  .about .about--container .about--right .about--text .about--opacity {
+    width: 90%;
+  }
+  .about .about--container .about--right .about--text .about--list {
+    width: 100%;
+    text-align: start;
+  }
+  .about .about--container .about--right .about--text .about--list .list {
+    width: 100%;
+    max-width: 100%;
+  }
+  .about .about--container .about--right .about--text .about--list .list .list--name {
+    width: 25%;
+    font-size: 16px;
+  }
+  .about .about--container .about--right .about--text .about--list .list .list--opacity {
+    width: 50%;
+    font-size: 16px;
+  }
+  .resume .resume--container {
+    width: 100%;
+  }
+  .resume .resume--container .resume--bottom {
+    width: 100%;
+    flex-direction: column;
+  }
+  .resume .resume--container .about--cv {
+    width: 100%;
+  }
+  .services .services--container {
+    width: 100%;
+  }
+  .services .services--container .services--top .services--bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills .skills--container {
+    width: 100%;
+  }
+  .skills .skills--container .container--top .skills-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .contact--container .contact--top .contact--about {
+    width: 100%;
+  }
+  .contact .contact--container .contact--top .contact--div {
+    display: contents;
+  }
+  .footer .footer--container .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  .nav {
+    width: 80%;
+    margin: auto;
+  }
+  .nav .nav--list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav .nav--list .nav--logo {
+    margin: 0px;
+  }
+  .nav .nav--list .menu {
+    justify-content: end;
+  }
+  .nav .nav--list .menu .menu--list {
+    display: none;
+    color: #2c43ff;
+  }
+  .nav .nav--list .menu .nav--buton {
+    display: block;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+    display: flex;
+  }
+  .nav .nav--list .menu .nav--buton .menu--icon {
+    color: #e5e505;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+  }
+  .nav .nav--list .menu .nav--buton .menu--icon:hover {
+    display: block;
+  }
+  .nav .nav--list .menu .nav--buton .menu--icon:hover .menu--list {
+    display: block;
+  }
+  .nav .nav--list .menu .nav--buton .menu2 {
+    transition: 0.47s;
+    color: #54555b;
+    font-size: 20px;
+  }
+  .main {
+    width: 100%;
+  }
+  .main .main-content .container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main .main-content .container .container-text {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .main .main-content .container .container-text .text {
+    width: 100%;
+    position: absolute;
+  }
+  .main .main-content .container .container--img {
+    width: 100%;
+  }
+  .about .about--container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .about .about--container .about--left {
+    display: none;
+  }
+  .about .about--container .about--right {
+    width: 100%;
+    text-align: center;
+  }
+  .about .about--container .about--right .about--text {
+    width: 92%;
+    margin: auto;
+  }
+  .about .about--container .about--right .about--text .about--opacity {
+    width: 90%;
+  }
+  .about .about--container .about--right .about--text .about--list {
+    width: 100%;
+    text-align: start;
+  }
+  .about .about--container .about--right .about--text .about--list .list {
+    width: 100%;
+    max-width: 100%;
+  }
+  .about .about--container .about--right .about--text .about--list .list .list--name {
+    width: 25%;
+    font-size: 16px;
+  }
+  .about .about--container .about--right .about--text .about--list .list .list--opacity {
+    width: 100%;
+    font-size: 16px;
+  }
+  .resume .resume--container {
+    width: 100%;
+  }
+  .resume .resume--container .resume--bottom {
+    width: 100%;
+    flex-direction: column;
+  }
+  .resume .resume--container .about--cv {
+    width: 100%;
+  }
+  .services .services--container {
+    width: 100%;
+  }
+  .services .services--container .services--top .services--bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills .skills--container {
+    width: 100%;
+  }
+  .skills .skills--container .container--top .skills-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .contact--container .contact--top .contact--about {
+    width: 100%;
+  }
+  .contact .contact--container .contact--top .contact--div {
+    display: contents;
+  }
+  .footer .footer--container .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
+  body {
+    width: 100%;
+  }
+  .nav {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .nav .nav--list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav .nav--list .nav--logo {
+    margin: 0px;
+  }
+  .nav .nav--list .menu {
+    justify-content: end;
+  }
+  .nav .nav--list .menu .menu--list {
+    display: none;
+    color: #2c43ff;
+  }
+  .nav .nav--list .nav--buton {
+    display: block;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+    display: flex;
+  }
+  .nav .nav--list .nav--buton .menu--icon {
+    color: #e5e505;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+  }
+  .nav .nav--list .nav--buton .menu--icon:hover {
+    display: block;
+  }
+  .nav .nav--list .nav--buton .menu--icon:hover .menu--list {
+    display: block;
+  }
+  .main {
+    width: 100%;
+  }
+  .main .main-content .container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main .main-content .container .container-text {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .main .main-content .container .container-text .text {
+    width: 100%;
+    position: absolute;
+  }
+  .main .main-content .container .container--img {
+    width: 100%;
+  }
+  .about .about--container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .about .about--container .about--left {
+    display: none;
+  }
+  .about .about--container .about--right {
+    width: 100%;
+    text-align: center;
+  }
+  .about .about--container .about--right .about--text {
+    width: 92%;
+    margin: auto;
+  }
+  .about .about--container .about--right .about--text .about--opacity {
+    width: 90%;
+  }
+  .about .about--container .about--right .about--text .about--list {
+    width: 100%;
+    text-align: start;
+  }
+  .about .about--container .about--right .about--text .about--list .list {
+    width: 100%;
+    max-width: 100%;
+  }
+  .about .about--container .about--right .about--text .about--list .list .list--name {
+    width: 25%;
+    font-size: 16px;
+  }
+  .about .about--container .about--right .about--text .about--list .list .list--opacity {
+    width: 100%;
+    font-size: 16px;
+  }
+  .resume .resume--container {
+    width: 100%;
+  }
+  .resume .resume--container .resume--bottom {
+    width: 100%;
+    flex-direction: column;
+  }
+  .resume .resume--container .about--cv {
+    width: 100%;
+  }
+  .services .services--container {
+    width: 100%;
+  }
+  .services .services--container .services--top .services--bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills .skills--container {
+    width: 100%;
+  }
+  .skills .skills--container .container--top .skills-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .contact--container .contact--top .contact--about {
+    width: 100%;
+  }
+  .contact .contact--container .contact--top .contact--div {
+    display: contents;
+  }
+  .footer .footer--container .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) *//*# sourceMappingURL=style.css.map */
