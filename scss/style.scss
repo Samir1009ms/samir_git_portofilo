@@ -37,9 +37,9 @@ body {
         display: flex;
         margin: auto;
 
-          .nav--buton {
-                display: none;
-            }
+        .nav--buton {
+            display: none;
+        }
 
 
         .nav--logo {
@@ -57,7 +57,7 @@ body {
             display: flex;
             align-items: center;
 
-          
+
 
             &--list {
                 display: flex;
@@ -905,9 +905,7 @@ body {
                     gap: 20px;
                     font-size: 26px;
 
-                    .icon--footer {
-                        
-                    }
+                    .icon--footer {}
                 }
 
                 .footer--list {
@@ -974,12 +972,13 @@ body {
 
             .menu {
                 justify-content: end;
+
                 .menu--list {
                     display: none;
                     color: #2c43ff;
                 }
 
-              
+
             }
 
             .nav--buton {
@@ -988,20 +987,21 @@ body {
                 border: none;
                 cursor: pointer;
 
-                .menu--icon{
+                .menu--icon {
                     color: #e5e505;
                     font-size: 20px;
                     cursor: pointer;
-                   
+
                 }
 
-               
+
             }
         }
     }
 
     .main {
         width: 100%;
+
         .main-content {
 
 
@@ -1045,6 +1045,7 @@ body {
                 .about--text {
                     width: 92%;
                     margin: auto;
+
                     .about--opacity {
                         width: 90%;
 
@@ -1059,7 +1060,7 @@ body {
                             width: 100%;
                             max-width: 100%;
 
-                            .list--name{
+                            .list--name {
                                 width: 25%;
                                 font-size: 16px;
                             }
@@ -1177,6 +1178,7 @@ body {
 
             .menu {
                 justify-content: end;
+
                 .menu--list {
                     display: none;
                     color: #2c43ff;
@@ -1189,20 +1191,21 @@ body {
                     cursor: pointer;
                     display: flex;
 
-                   
-                    .menu--icon{
+
+                    .menu--icon {
                         color: #e5e505;
                         font-size: 20px;
                         cursor: pointer;
                         display: block;
-                       
+
                         &:hover {
                             display: block;
+
                             .menu--list {
                                 display: block;
                             }
                         }
-                       
+
                     }
 
                     .menu2 {
@@ -1210,12 +1213,12 @@ body {
                         transition: calc(0.47s);
                         color: #54555b;
                         font-size: 20px;
-                        
+
                     }
 
-                   
 
-                   
+
+
                 }
             }
 
@@ -1225,6 +1228,7 @@ body {
 
     .main {
         width: 100%;
+
         .main-content {
 
 
@@ -1268,6 +1272,7 @@ body {
                 .about--text {
                     width: 92%;
                     margin: auto;
+
                     .about--opacity {
                         width: 90%;
 
@@ -1282,7 +1287,7 @@ body {
                             width: 100%;
                             max-width: 100%;
 
-                            .list--name{
+                            .list--name {
                                 width: 25%;
                                 font-size: 16px;
                             }
@@ -1401,12 +1406,13 @@ body {
 
             .menu {
                 justify-content: end;
+
                 .menu--list {
                     display: none;
                     color: #2c43ff;
                 }
 
-              
+
             }
 
             .nav--buton {
@@ -1416,25 +1422,26 @@ body {
                 cursor: pointer;
                 display: flex;
 
-               
-                .menu--icon{
+
+                .menu--icon {
                     color: #e5e505;
                     font-size: 20px;
                     cursor: pointer;
                     display: block;
-                   
+
                     &:hover {
                         display: block;
+
                         .menu--list {
                             display: block;
                         }
                     }
-                   
+
                 }
 
-               
 
-               
+
+
             }
 
 
@@ -1443,6 +1450,7 @@ body {
 
     .main {
         width: 100%;
+
         .main-content {
 
 
@@ -1486,6 +1494,7 @@ body {
                 .about--text {
                     width: 92%;
                     margin: auto;
+
                     .about--opacity {
                         width: 90%;
 
@@ -1500,7 +1509,7 @@ body {
                             width: 100%;
                             max-width: 100%;
 
-                            .list--name{
+                            .list--name {
                                 width: 25%;
                                 font-size: 16px;
                             }
